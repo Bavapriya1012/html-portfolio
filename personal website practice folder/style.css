@@ -1,0 +1,162 @@
+body{
+  font-family: cursive;
+  margin: 0px;
+}
+.top-container{
+  background-color:lightcoral ;
+  padding: 25px 15px;
+  text-align: center;
+}
+h1{
+  font-size: 5rem;
+  font-weight: bold;
+  color: peachpuff;
+  text-shadow:  0 3px saddlebrown;
+  margin: 0px;
+}
+.butterfly{
+  display: none;
+  height: 70px;
+  width: 70px;
+}
+
+h2{
+  color: coral;
+ }
+h3{
+  color: saddlebrown;
+  font-style: italic;
+  margin: 0px;
+}
+
+.navbar ul{
+  list-style-type: none;
+  
+}
+.navbar li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.navbar a{
+  text-decoration: none;
+  color: paleturquoise;
+  text-shadow: 2px 2px 5px plum;
+  font-family: cursive;
+}
+.navbar a:hover{
+  color: bisque;
+  text-shadow: none;
+  font-size: 20px;
+}
+.middle-container{
+  text-align: center;
+  background-color:rgb(245,245,220,0.5);
+  margin: 0px;
+  padding: 15px;
+  color: navy;
+}
+.para{
+  background-color: rgba(255,255,255,0.3);
+  width: 60%;
+  margin: auto;
+  line-height: 30px;
+  text-align: justify;
+
+}
+.skills-grid{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 190px 50px;
+}
+
+.resume a{
+  text-transform: uppercase;
+  text-decoration: underline;
+  color:coral;
+  font-family: cursive;
+  
+}
+.resume a:hover{
+  color: bisque;
+  cursor: pointer;
+}
+.resume{
+ width: 60%;
+ margin: auto;
+ word-spacing: 5px;
+}
+.bottom-container ul{
+  list-style-type: none;
+}
+
+.footer-links a{
+  font-size: 20px;
+  text-decoration: none;
+  color: paleturquoise;
+  text-shadow: 0 2px plum;
+  font-family: cursive;
+  line-height: 45px;
+  text-align: center;
+}
+.footer-links a:hover{
+  color: bisque;
+  text-shadow: none;
+  font-size: 24px;
+}
+
+img{
+  height: 70px;
+  width: 70px;
+}
+.bottom-container{
+  background-color: rgb(240, 144, 144);
+  padding: 15px;
+  text-align: center;
+}
+.copyright{
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.contacts{
+  color: saddlebrown;
+  font-family: cursive;
+  margin-left: 15px;
+}
+.icons svg{
+  height: 25px;
+  }
+
+#email{
+  margin-left: -30px;
+} 
+#git{
+  margin-left: -10px;
+} 
+@media(max-width:650px){
+  .butterfly{
+    display: block;
+  }
+  .navbar{
+    display: none;
+  }
+  .skills-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+  img{
+    margin-bottom: 15px;
+  }
+  .resume{
+    line-height: 30px;
+  }
+}
